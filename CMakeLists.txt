@@ -14,8 +14,8 @@ include_directories( "${CMAKE_CURRENT_BINARY_DIR}")
 set(HEADER_DIR "${PROJECT_SOURCE_DIR}/include/")
 
 add_executable(avt src/avt.cc)
-target_include_directories(avt "${HEADER_DIRS}")
-target_link_libraries(avt MPI::MPI_CXX vt::vt)
+target_include_directories(avt PRIVATE "${HEADER_DIR}")
+target_link_libraries(avt PRIVATE MPI::MPI_CXX vt::lib::detector vt::lib::checkpoint vt::runtime::vt)
 
 option( AVT_ENABLE_TESTS "Build tests" ON)
 if ( AVT_ENABLE_TESTS )

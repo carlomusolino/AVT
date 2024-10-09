@@ -1,5 +1,5 @@
-#include "include/node.hh"
-#include "include/mesh.hh"
+#include <avt/node.hh>
+#include <avt/mesh.hh>
 #include <vt/transport.h>
 
 static constexpr std::size_t const d_no = 8 ;
