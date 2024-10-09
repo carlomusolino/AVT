@@ -25,7 +25,7 @@
 #define MESH_DATA_HH__
 
 #include <vt/transport.h>
-#include "mesh_array.hh"
+#include <avt/mesh_array.hh>
 
 #define DBG_ASSERT_BNDCHECK
 

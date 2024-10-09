@@ -23,10 +23,10 @@
 #ifndef AVT_TIME_STEPPER_HH__
 #define AVT_TIME_STEPPER_HH__
 
-#include "mesh.hh"
-#include "mesh_data.hh"
-#include "mesh_array.hh"
-#include "loop_utils.hh"
+#include <avt/mesh.hh>
+#include <avt/mesh_data.hh>
+#include <avt/mesh_array.hh>
+#include <avt/loop_utils.hh>
 
 namespace advect_1d {
 

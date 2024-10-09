@@ -26,8 +26,8 @@
 #ifndef AVT_GZ_BUFFERS_HH__
 #define AVT_GZ_BUFFERS_HH__
 
-#include "mesh_array.hh"
-#include "loop_utils.hh"
+#include <avt/mesh_array.hh>
+#include <avt/loop_utils.hh>
 
 namespace advect_1d {
 

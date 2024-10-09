@@ -24,9 +24,9 @@
 #define MESH_HH__
 
 #include <vt/transport.h>
-#include "node.hh"
-#include "recon_utils.hh"
-#include "mesh_data.hh"
+#include <avt/node.hh>
+#include <avt/recon_utils.hh>
+#include <avt/mesh_data.hh>
 
 #define A_VEL__ 1
 
