@@ -1,0 +1,75 @@
+# CMake build files
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+*.cmake
+
+# Build directories
+build/
+bin/
+lib/
+lib64/
+out/
+Debug/
+Release/
+*.o
+*.obj
+*.so
+*.a
+*.dll
+*.exe
+
+# User-specific files
+*.user
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+*.swp
+*.swo
+*.tmp
+*.temp
+
+# Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+env/
+venv/
+*.egg
+dist/
+*.whl
+
+# IDE specific files
+# Visual Studio
+.vscode/
+*.sln
+*.suo
+*.user
+*.vcxproj
+*.vcxproj.filters
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+
+# Other environment files
+*.env
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# Backup files
+*~
+*.bak
+*.orig
+*.swp
